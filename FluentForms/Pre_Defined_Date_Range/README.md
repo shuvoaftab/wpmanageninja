@@ -7,10 +7,9 @@
 
 <p align="center">
 The Configuration is Under the Advanced Settings:
-
+</p>
 {
     mode: "range",
     dateFormat: "Y-m-d",
     defaultDate: ["2022-03-11", "2022-03-18"]
 }
-</p>
