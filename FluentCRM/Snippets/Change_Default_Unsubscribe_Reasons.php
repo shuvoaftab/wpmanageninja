@@ -1,6 +1,8 @@
 <?php
 /**
- * fluent-crm/app/Hooks/Handlers/ExternalPages.php:398
+ * @author Ibrahim Sharif <shuvoaftabibrahim@gmail.com>
+ * Change Unsubscription Reasons in FluentCRM.
+ * fluent-crm/app/Hooks/Handlers/ExternalPages.php:unsubscribeReasons()
  */
 
  

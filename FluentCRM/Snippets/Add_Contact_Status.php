@@ -1,5 +1,6 @@
 <?php
 /**
+ * @author Ibrahim Sharif <shuvoaftabibrahim@gmail.com>
  * Add new Contact Status in FluentCRM. This will not let you send campaigns or emails to any contacts for these statuses.
  * fluent-crm/app/Functions/helpers.php:fluentcrm_subscriber_statuses()
  */
