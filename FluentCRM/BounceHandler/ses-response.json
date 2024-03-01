@@ -1,0 +1,31 @@
+{
+    "notificationType": "Bounce",
+    "bounce": {
+        "feedbackId": "0100018df91441da-7bdd0b65-e480-4850-8bac-64e5328ba65d-000000",
+        "bounceType": "Permanent",
+        "bounceSubType": "General",
+        "bouncedRecipients": [
+            {
+                "emailAddress": "bounce@simulator.amazonses.com",
+                "action": "failed",
+                "status": "5.1.1",
+                "diagnosticCode": "smtp; 550 5.1.1 user unknown"
+            }
+        ],
+        "timestamp": "2024-03-01T08:14:30.000Z",
+        "remoteMtaIp": "44.198.46.232",
+        "reportingMTA": "dns; a48-90.smtp-out.amazonses.com"
+    },
+    "mail": {
+        "timestamp": "2024-03-01T08:14:30.489Z",
+        "source": "bouncetest@ibrahimsharif.com",
+        "sourceArn": "arn:aws:ses:us-east-1:954953762127:identity/ibrahimsharif.com",
+        "sourceIp": "43.224.109.26",
+        "callerIdentity": "root",
+        "sendingAccountId": "954953762127",
+        "messageId": "0100018df9144059-0186804f-4002-4ae0-8ea7-fe21646ee008-000000",
+        "destination": [
+            "bounce@simulator.amazonses.com"
+        ]
+    }
+}
