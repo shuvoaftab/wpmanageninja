@@ -1,5 +1,5 @@
 <?php
-// Stock Version 2.8.45
+// Stock 2.8.45
 namespace FluentCampaign\App\Services\Integrations\WooCommerce;
 
 use FluentCrm\App\Services\AutoSubscribe;
@@ -156,20 +156,23 @@ class WooInit {
             return false;
         }
 
-        if (Arr::get($settings, 'show_only_new') == 'yes') {
-            $contact = fluentcrm_get_current_contact();
-            if ($contact && $contact->status == 'subscribed') {
-                return false;
-            }
+        $defaultValue = \WC()->checkout->get_value('_fc_woo_checkout_subscribe');
+
+        $contact = fluentcrm_get_current_contact();
+
+        if ($contact && $contact->status == 'subscribed') {
+            $defaultValue = 1; // Check the checkbox if the contact is already subscribed
+        } elseif (Arr::get($settings, 'auto_checked') == 'yes') {
+            $defaultValue = 1; //Auto-check the checkbox if the setting is enabled
+        } else {
+            $defaultValue = 0; // Default unchecked
+        }
+
+        if (Arr::get($settings, 'show_only_new') == 'yes' && $contact && $contact->status == 'subscribed') {
+            return false;
         }
 
         $heading = Arr::get($settings, 'checkbox_label');
-
-        $defaultValue = \WC()->checkout->get_value('_fc_woo_checkout_subscribe');
-
-        if (Arr::get($settings, 'auto_checked') == 'yes') {
-            $defaultValue = 1;
-        }
 
         \woocommerce_form_field('_fc_woo_checkout_subscribe', array(
             'type'        => 'checkbox',
@@ -179,15 +182,21 @@ class WooInit {
         ), $defaultValue);
     }
 
-    public function maybeSubscriptionChecked($oderId) {
-        if (empty($_POST['_fc_woo_checkout_subscribe'])) {
-            return;
-        }
+    public function maybeSubscriptionChecked($orderId) {
+        $order = wc_get_order($orderId);
+        $email = $order->get_billing_email();
+
+        $subscriberData = Helper::prepareSubscriberData($order);
 
         $settings = (new AutoSubscribe())->getWooCheckoutSettings();
 
-        $order          = wc_get_order($oderId);
-        $subscriberData = Helper::prepareSubscriberData($order);
+        $isSubscribed = !empty($_POST['_fc_woo_checkout_subscribe']);
+
+        if ($isSubscribed) {
+            $subscriberData['status'] = Arr::get($settings, 'double_optin') == 'yes' ? 'pending' : 'subscribed';
+        } else {
+            $subscriberData['status'] = 'unsubscribed';
+        }
 
         if ($listId = Arr::get($settings, 'target_list')) {
             $subscriberData['lists'] = [$listId];
@@ -197,24 +206,11 @@ class WooInit {
             $subscriberData['tags'] = $tags;
         }
 
-        $isDoubleOptin = Arr::get($settings, 'double_optin') == 'yes';
-
-        if ($isDoubleOptin) {
-            $subscriberData['status'] = 'pending';
-        } else {
-            $subscriberData['status'] = 'subscribed';
-        }
-
         $contact = FunnelHelper::createOrUpdateContact($subscriberData);
 
-        if (!$contact) {
-            return false;
-        }
-
-        if ($contact->status == 'pending') {
+        if ($contact && $contact->status == 'pending') {
             $contact->sendDoubleOptinEmail();
         }
-
     }
 
     public function pushSubscriptionWidgets($widgets, $subscriber) {
