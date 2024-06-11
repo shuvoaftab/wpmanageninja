@@ -1,10 +1,144 @@
-[
-    {
-        "title": "Page 1",
-        "url": "https://example.com/page1"
-    },
-    {
-        "title": "Page 2",
-        "url": "https://example.com/page2"
-    }
-]
+{
+    "categories": [
+        {
+            "id": 4,
+            "icon": "https://fluentsmtp.com/wp-content/uploads/2023/01/start-flag-icon-26.png",
+            "title": "Getting Started",
+            "count": 4,
+            "articles": [
+                {
+                    "title": "Install and Activate FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/installing-fluent-smtp/"
+                },
+                {
+                    "title": "Configurable Email Delivery Providers",
+                    "link": "https://fluentsmtp.com/docs/configurable-email-delivery-providers/"
+                },
+                {
+                    "title": "Introduction to FluentSMTP Dashboard",
+                    "link": "https://fluentsmtp.com/docs/introduction-to-fluent-smtp-dashboard/"
+                },
+                {
+                    "title": "FluentSMTP Settings",
+                    "link": "https://fluentsmtp.com/docs/fluent-smtp-settings/"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "icon": "https://fluentsmtp.com/wp-content/uploads/2023/01/email-icon-1.png",
+            "title": "Delivery Connections",
+            "count": 12,
+            "articles": [
+                {
+                    "title": "Configure FluentSMTP with Microsoft Outlook/Office Email",
+                    "link": "https://fluentsmtp.com/docs/configure-fluentsmtp-with-microsoft-outlook-office/"
+                },
+                {
+                    "title": "Gmail or Google Workspace with FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/connect-gmail-or-google-workspace-emails-with-fluentsmtp/"
+                },
+                {
+                    "title": "Any Hosting Email Service with FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/set-up-fluent-smtp-with-any-host-or-mailer/"
+                },
+                {
+                    "title": "Amazon or AWS SES with FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/set-up-amazon-ses-in-fluent-smtp/"
+                },
+                {
+                    "title": "Configure Elastic Email in FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/configure-elastic-email-in-fluent-smtp/"
+                },
+                {
+                    "title": "Outlook or Office365 with FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/setup-outlook-with-fluentsmtp/"
+                },
+                {
+                    "title": "Setting Up Brevo Mailer in FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/setting-up-sendinblue-mailer-in-fluent-smtp/"
+                },
+                {
+                    "title": "Configure Mailgun in FluentSMTP to Send Emails",
+                    "link": "https://fluentsmtp.com/docs/configure-mailgun-in-fluent-smtp-to-send-emails/"
+                },
+                {
+                    "title": "Set Up the Netcore Mailer in FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/set-up-the-pepipost-mailer-in-fluent-smtp/"
+                },
+                {
+                    "title": "Set Up the SendGrid Driver in FluentSMTP",
+                    "link": "https://fluentsmtp.com/docs/set-up-the-sendgrid-driver-in-fluent-smtp/"
+                },
+                {
+                    "title": "Configure SparkPost in FluentSMTP to Send Emails",
+                    "link": "https://fluentsmtp.com/docs/configure-sparkpost-in-fluent-smtp-to-send-emails/"
+                },
+                {
+                    "title": "Configure Postmark in FluentSMTP to Send Emails",
+                    "link": "https://fluentsmtp.com/docs/configure-postmark-in-fluent-smtp-to-send-emails/"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "icon": "https://fluentsmtp.com/wp-content/plugins/betterdocs/assets/admin/images/betterdocs-cat-icon.svg?v=3.5.7",
+            "title": "Alerts",
+            "count": 4,
+            "articles": [
+                {
+                    "title": "Email Summary",
+                    "link": "https://fluentsmtp.com/docs/alerts-email-summary/"
+                },
+                {
+                    "title": "Email Sending Error Notification Telegram",
+                    "link": "https://fluentsmtp.com/docs/email-sending-error-notification-telegram/"
+                },
+                {
+                    "title": "Email Sending Error Notification Slack",
+                    "link": "https://fluentsmtp.com/docs/email-sending-error-notification-slack/"
+                },
+                {
+                    "title": "Email Sending Error Notification Discord",
+                    "link": "https://fluentsmtp.com/docs/email-sending-error-notification-discord/"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "icon": "https://fluentsmtp.com/wp-content/uploads/2023/01/smtp-credentials-1.png",
+            "title": "Obtain SMTP Credentials",
+            "count": 1,
+            "articles": [
+                {
+                    "title": "cPanel SMTP Credentials",
+                    "link": "https://fluentsmtp.com/docs/cpanel-smtp-credentials/"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "icon": "https://fluentsmtp.com/wp-content/uploads/2023/01/funcs-smtp.png",
+            "title": "Advanced Functionalities",
+            "count": 1,
+            "articles": [
+                {
+                    "title": "Multiple SMTP Connections & Auto Routing",
+                    "link": "https://fluentsmtp.com/docs/using-multiple-smtp-drivers-with-fluent-smtp/"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "icon": "https://fluentsmtp.com/wp-content/uploads/2023/01/misc-smtp.png",
+            "title": "Miscellaneous",
+            "count": 1,
+            "articles": [
+                {
+                    "title": "FluentSMTP Email Logs Feature",
+                    "link": "https://fluentsmtp.com/docs/fluentsmtp-email-logs-feature/"
+                }
+            ]
+        }
+    ]
+}
