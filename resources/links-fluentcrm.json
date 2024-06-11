@@ -1,30 +1,380 @@
-[
-    {
-        "title": "A SERVER-SIDE CRON JOB (CPANEL)",
-        "url": "https://fluentcrm.com/docs/replace-wordpress-cron-with-a-real-cron-job/"
-    },
-    {
-        "title": "Incoming Webhooks",
-        "url": "https://fluentcrm.com/docs/global-incoming-webhooks/"
-    },
-    {
-        "title": "Global Email Settings",
-        "url": "https://fluentcrm.com/docs/global-email-settings/"
-    },
-    {
-        "title": "Global General Settings",
-        "url": "https://fluentcrm.com/docs/global-general-settings/"
-    },
-    {
-        "title": "Custom Contact Fields",
-        "url": "https://fluentcrm.com/docs/global-custom-contact-fields/"
-    },
-    {
-        "title": "Double Opt-in Settings",
-        "url": "https://fluentcrm.com/docs/global-double-opt-in-settings/"
-    },
-    {
-        "title": "FluentCRM Managers",
-        "url": "https://fluentcrm.com/docs/global-managers-settings/"
-    }
-]
+{
+    "categories": [
+        {
+            "id": 3,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-start-1.png",
+            "title": "Getting Started",
+            "count": 4,
+            "articles": [
+                {
+                    "title": "Install, Upgrade and Activate FluentCRM License",
+                    "link": "https://fluentcrm.com/docs/how-to-install-upgrade-and-activate-license/"
+                },
+                {
+                    "title": "Transfer License from one Domain to another",
+                    "link": "https://fluentcrm.com/docs/transfer-license-from-one-domain-to-another/"
+                },
+                {
+                    "title": "Introduction to FluentCRM Dashboard",
+                    "link": "https://fluentcrm.com/docs/dashboard-introduction/"
+                },
+                {
+                    "title": "Migrating into FluentCRM from Other Platforms",
+                    "link": "https://fluentcrm.com/docs/migrating-into-fluentcrm/"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-settings-1.png",
+            "title": "Global Settings",
+            "count": 15,
+            "articles": [
+                {
+                    "title": "FluentCRM Global Settings",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-global-settings/"
+                },
+                {
+                    "title": "Business Settings",
+                    "link": "https://fluentcrm.com/docs/global-business-settings/"
+                },
+                {
+                    "title": "Email Settings",
+                    "link": "https://fluentcrm.com/docs/global-email-settings/"
+                },
+                {
+                    "title": "General Settings",
+                    "link": "https://fluentcrm.com/docs/global-general-settings/"
+                },
+                {
+                    "title": "Custom Contact Fields",
+                    "link": "https://fluentcrm.com/docs/global-custom-contact-fields/"
+                },
+                {
+                    "title": "Smart Links",
+                    "link": "https://fluentcrm.com/docs/global-smartlinks-settings/"
+                },
+                {
+                    "title": "Integration Settings",
+                    "link": "https://fluentcrm.com/docs/global-integration-settings/"
+                },
+                {
+                    "title": "Double Opt-in Settings",
+                    "link": "https://fluentcrm.com/docs/global-double-opt-in-settings/"
+                },
+                {
+                    "title": "Incoming Webhooks",
+                    "link": "https://fluentcrm.com/docs/global-incoming-webhooks/"
+                },
+                {
+                    "title": "Managers",
+                    "link": "https://fluentcrm.com/docs/global-managers-settings/"
+                },
+                {
+                    "title": "REST API",
+                    "link": "https://fluentcrm.com/docs/global-rest-api-settings/"
+                },
+                {
+                    "title": "Tools",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-tools-settings/"
+                },
+                {
+                    "title": "Compliance",
+                    "link": "https://fluentcrm.com/docs/global-compliance-settings/"
+                },
+                {
+                    "title": "SMTP/Email & Bounce Handlers",
+                    "link": "https://fluentcrm.com/docs/smtp-bounce-handlers-settings/"
+                },
+                {
+                    "title": "Advanced Features Settings",
+                    "link": "https://fluentcrm.com/docs/advanced-features-settings/"
+                }
+            ]
+        },
+        {
+            "id": 113,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2023/01/essentials.png",
+            "title": "FluentCRM Essentials",
+            "count": 7,
+            "articles": [
+                {
+                    "title": "Cron Job: Basics & Checklist",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-job-basics-and-checklist/"
+                },
+                {
+                    "title": "Cron Job: Replace with a Server-side Cron Job (cPanel)",
+                    "link": "https://fluentcrm.com/docs/replace-wordpress-cron-with-a-real-cron-job/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron With Cloudways",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-cloudways/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron with Cron-job.org",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-cronjob-org/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron with EasyCron",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-easycron/"
+                },
+                {
+                    "title": "Email Delivery of FluentCRM",
+                    "link": "https://fluentcrm.com/docs/sending-emails-and-email-deliverability/"
+                },
+                {
+                    "title": "Troubleshoot: Guidelines on WordPress Error",
+                    "link": "https://fluentcrm.com/docs/troubleshoot-guidelines-on-wordpress-error/"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-contact-1.png",
+            "title": "Contacts",
+            "count": 10,
+            "articles": [
+                {
+                    "title": "Contacts Dashboard",
+                    "link": "https://fluentcrm.com/docs/contacts-dashboard/"
+                },
+                {
+                    "title": "Company Module",
+                    "link": "https://fluentcrm.com/docs/company-module/"
+                },
+                {
+                    "title": "Advanced Filter",
+                    "link": "https://fluentcrm.com/docs/advanced-filter/"
+                },
+                {
+                    "title": "Contact Overview",
+                    "link": "https://fluentcrm.com/docs/contact-overview/"
+                },
+                {
+                    "title": "Integrated Contact Overview",
+                    "link": "https://fluentcrm.com/docs/additional-integrated-contact-overview/"
+                },
+                {
+                    "title": "Manage Contacts",
+                    "link": "https://fluentcrm.com/docs/manage-contacts/"
+                },
+                {
+                    "title": "General & Dynamic Segments",
+                    "link": "https://fluentcrm.com/docs/segment-your-audience/"
+                },
+                {
+                    "title": "Import Contacts into FluentCRM",
+                    "link": "https://fluentcrm.com/docs/import-contacts-into-fluentcrm/"
+                },
+                {
+                    "title": "Import from Other Plugins & Integrations",
+                    "link": "https://fluentcrm.com/docs/import-contacts-to-fluentcrm-from-other-integrations/"
+                },
+                {
+                    "title": "Export Contacts from FluentCRM",
+                    "link": "https://fluentcrm.com/docs/export-contacts-from-fluentcrm/"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-email-1.png",
+            "title": "Emails",
+            "count": 11,
+            "articles": [
+                {
+                    "title": "Overview of Emails from FluentCRM",
+                    "link": "https://fluentcrm.com/docs/overview-of-emails-from-fluentcrm/"
+                },
+                {
+                    "title": "Compose Email in FluentCRM",
+                    "link": "https://fluentcrm.com/docs/compose-email-in-fluentcrm/"
+                },
+                {
+                    "title": "Content Blocks in Email Editor",
+                    "link": "https://fluentcrm.com/docs/content-blocks-in-fluentcrm-email-editor/"
+                },
+                {
+                    "title": "Conditional Sections in Email Editor",
+                    "link": "https://fluentcrm.com/docs/conditional-sections-in-fluentcrm-email-editor/"
+                },
+                {
+                    "title": "SmartCode in Email Editor",
+                    "link": "https://fluentcrm.com/docs/smartcodes-in-fluentcrm-email-editor/"
+                },
+                {
+                    "title": "Email Templates",
+                    "link": "https://fluentcrm.com/docs/email-templates/"
+                },
+                {
+                    "title": "Email Campaigns",
+                    "link": "https://fluentcrm.com/docs/setting-up-campaign/"
+                },
+                {
+                    "title": "Campaign Summary & Actions",
+                    "link": "https://fluentcrm.com/docs/campaign-summary-actions/"
+                },
+                {
+                    "title": "Recurring Campaign",
+                    "link": "https://fluentcrm.com/docs/recurring-campaign/"
+                },
+                {
+                    "title": "Email Sequence",
+                    "link": "https://fluentcrm.com/docs/email-sequence/"
+                },
+                {
+                    "title": "FluentCRM Visual Builder",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-visual-builder/"
+                }
+            ]
+        },
+        {
+            "id": 108,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-forms-1.png",
+            "title": "Forms",
+            "count": 3,
+            "articles": [
+                {
+                    "title": "Opt-in Forms (Fluent Forms) Basic Configuration",
+                    "link": "https://fluentcrm.com/docs/opt-in-forms-fluent-forms-basic-configuration/"
+                },
+                {
+                    "title": "Fluent Forms Advanced Configuration",
+                    "link": "https://fluentcrm.com/docs/opt-in-forms-advanced-configuration/"
+                },
+                {
+                    "title": "Capturing Leads Remotely from Fluent Forms",
+                    "link": "https://fluentcrm.com/docs/capturing-leads-remotely-from-fluent-forms/"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-automations-1.png",
+            "title": "Automations",
+            "count": 16,
+            "articles": [
+                {
+                    "title": "Email Sequences Automation",
+                    "link": "https://fluentcrm.com/docs/email-sequences-automation/"
+                },
+                {
+                    "title": "How to Create a Funnel",
+                    "link": "https://fluentcrm.com/docs/create-a-funnel/"
+                },
+                {
+                    "title": "Trigger: WooCommerce Checkout",
+                    "link": "https://fluentcrm.com/docs/trigger-woocommerce-checkout/"
+                },
+                {
+                    "title": "Trigger: LearnPress Course Enrollment",
+                    "link": "https://fluentcrm.com/docs/trigger-learnpress-course-enrollment/"
+                },
+                {
+                    "title": "Trigger: WooCommerce Order Completed",
+                    "link": "https://fluentcrm.com/docs/trigger-woocommerce-order-completed/"
+                },
+                {
+                    "title": "Trigger: MemberPress Membership",
+                    "link": "https://fluentcrm.com/docs/trigger-memberpress-membership/"
+                },
+                {
+                    "title": "Trigger: Easy Digital Downloads",
+                    "link": "https://fluentcrm.com/docs/trigger-easy-digital-downloads-purchase/"
+                },
+                {
+                    "title": "Trigger: Paid Membership Pro",
+                    "link": "https://fluentcrm.com/docs/trigger-paid-membership-pro/"
+                },
+                {
+                    "title": "Trigger: Wishlist Member",
+                    "link": "https://fluentcrm.com/docs/trigger-wishlist-member/"
+                },
+                {
+                    "title": "Trigger: WP Fusion",
+                    "link": "https://fluentcrm.com/docs/trigger-wp-fusion/"
+                },
+                {
+                    "title": "Trigger: LifterLMS",
+                    "link": "https://fluentcrm.com/docs/trigger-lifterlms/"
+                },
+                {
+                    "title": "Trigger: TutorLMS",
+                    "link": "https://fluentcrm.com/docs/trigger-tutorlms/"
+                },
+                {
+                    "title": "Trigger: LifterLMS",
+                    "link": "https://fluentcrm.com/docs/trigger-lifterlms/"
+                },
+                {
+                    "title": "Trigger: AffiliateWP",
+                    "link": "https://fluentcrm.com/docs/trigger-affiliatewp/"
+                },
+                {
+                    "title": "WooCommerce Order Note in Automations",
+                    "link": "https://fluentcrm.com/docs/woocommerce-order-note-in-automations/"
+                },
+                {
+                    "title": "Trigger: WooCommerce Subscription",
+                    "link": "https://fluentcrm.com/docs/trigger-woocommerce-subscription/"
+                }
+            ]
+        },
+        {
+            "id": 112,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2023/01/integration.png",
+            "title": "Integrations",
+            "count": 2,
+            "articles": [
+                {
+                    "title": "FluentSMTP",
+                    "link": "https://fluentcrm.com/docs/integration-fluent-smtp/"
+                },
+                {
+                    "title": "Integration with WP Fusion",
+                    "link": "https://fluentcrm.com/docs/wp-fusion/"
+                }
+            ]
+        },
+        {
+            "id": 109,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-troubleshoot-1.png",
+            "title": "Troubleshooting",
+            "count": 8,
+            "articles": [
+                {
+                    "title": "Cron Job: Basics & Checklist",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-job-basics-and-checklist/"
+                },
+                {
+                    "title": "Cron Job: Replace with a Server-side Cron Job (cPanel)",
+                    "link": "https://fluentcrm.com/docs/replace-wordpress-cron-with-a-real-cron-job/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron With Cloudways",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-cloudways/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron with Cron-job.org",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-cronjob-org/"
+                },
+                {
+                    "title": "Cron Job: FluentCRM Cron with EasyCron",
+                    "link": "https://fluentcrm.com/docs/fluentcrm-cron-with-easycron/"
+                },
+                {
+                    "title": "Email Delivery of FluentCRM",
+                    "link": "https://fluentcrm.com/docs/sending-emails-and-email-deliverability/"
+                },
+                {
+                    "title": "Troubleshoot: Guidelines on WordPress Error",
+                    "link": "https://fluentcrm.com/docs/troubleshoot-guidelines-on-wordpress-error/"
+                },
+                {
+                    "title": "Rest API",
+                    "link": "https://fluentcrm.com/docs/global-rest-api-settings/"
+                }
+            ]
+        }
+    ]
+}
