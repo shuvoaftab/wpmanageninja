@@ -1,0 +1,18 @@
+curl 'https://mynotebook.info/timelines' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'Accept-Language: en-US,en;q=0.9,bn;q=0.8' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: remember_web_59ba36addc2b2f9401580f014c7f58ea4e30989d=eyJpdiI6Imd6QTRTNHB6OHBEUCtlRVI2dDlld0E9PSIsInZhbHVlIjoiUFNFRXI0akJUYkVkU2kyayt0dlpQNjVJNVFzTWJwdGJBMHBvNSs0cERzN3dJT00rclJkUmxtZlBkZmN2SWJmaWJUWTY4dTh0amZOLzhBQ2VrdWhvNTExLzZyVzIxbk4zRjdaaUFzaTFTelhJdzBrT0RFOFBSWWZQYk5vbzVWV25HSmFXZWtBUFREbXo0eVRHOFREZW9DSXR6bEQ1Z1pPWE1mUFVOQVdHMmpaWVZkQi9RTmVOOGtla3dKMmtKSTc3M2oxcVhGR293OVNFQmZVQTRkZXQxbTVCSVNvVFdwcHZGUEZvVWc3RG1ZRT0iLCJtYWMiOiIwNDRkNjVmNmNiZjg5Y2IzNjY2MzY1YzAwN2M0NjlhMzY5MjU4MGI2ZjJjOWEzZjQ4OTk1Yjc4MTc0MGI3YWY3IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IjE2bks0QmYva1dpWVlDZWNYQ1NCMXc9PSIsInZhbHVlIjoiNEV4QSt4dk9XaURQOUI1QnR3WEEvTEp6NzdJckpudnpkSnFkVWlEM1EzNG5RSGhPZmxDUkZTM2FZbWs1MDdlSzE2U3dBcXB3Q3dyZXRubVRsSktJcCtKbks0ZzljTTJkSWhEVVdFOThFYlppL2RvZ2xMY1djZ2N5UFVsMldkUE4iLCJtYWMiOiJlMjJkYWExMTMwNDExMzFhOTYwYzU2ZDk5N2Q2NTZhOGQ2YTY1ZjhlNWUxOWVlM2RhNjBhNmZjMGJjN2ZjYzkwIiwidGFnIjoiIn0%3D; notebook_session=eyJpdiI6ImlNVDhUcWxHZ3lHeUlPTTdwZEhweFE9PSIsInZhbHVlIjoiQ05WUUw0a3NYQ0tvUjZFdjJXMXVESXMyR3VMTkorM0E3QVFSWlB2eXJ1N1krZmNPSkgzZTB4OXkzYlcxeC9yS1k1c0d1bHRJTDNaQTBrZWMvelZvbjhpNVBpK09XNVFDZXFWYU4wNkV6azhMKzZITnNrbHlxeTVTOFNDTEdVQ28iLCJtYWMiOiJkOTIyNzg1NTEwYzIyMzhmZWVlYTdhNjljNWQ5YTRlMjM1MGUzYmYwMjAzOWI3YTM2MjUzNjU3NWYwOTM4YmNmIiwidGFnIjoiIn0%3D' \
+  -H 'Pragma: no-cache' \
+  -H 'Referer: https://mynotebook.info/timelines/allTimes?badge=Computer&year=1822' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0' \
+  -H 'sec-ch-ua: "Not A(Brand";v="99", "Microsoft Edge";v="121", "Chromium";v="121"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --compressed
