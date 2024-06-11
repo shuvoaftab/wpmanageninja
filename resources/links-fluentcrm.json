@@ -1,0 +1,30 @@
+[
+    {
+        "title": "A SERVER-SIDE CRON JOB (CPANEL)",
+        "url": "https://fluentcrm.com/docs/replace-wordpress-cron-with-a-real-cron-job/"
+    },
+    {
+        "title": "Incoming Webhooks",
+        "url": "https://fluentcrm.com/docs/global-incoming-webhooks/"
+    },
+    {
+        "title": "Global Email Settings",
+        "url": "https://fluentcrm.com/docs/global-email-settings/"
+    },
+    {
+        "title": "Global General Settings",
+        "url": "https://fluentcrm.com/docs/global-general-settings/"
+    },
+    {
+        "title": "Custom Contact Fields",
+        "url": "https://fluentcrm.com/docs/global-custom-contact-fields/"
+    },
+    {
+        "title": "Double Opt-in Settings",
+        "url": "https://fluentcrm.com/docs/global-double-opt-in-settings/"
+    },
+    {
+        "title": "FluentCRM Managers",
+        "url": "https://fluentcrm.com/docs/global-managers-settings/"
+    }
+]
