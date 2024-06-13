@@ -1,6 +1,22 @@
 {
     "categories": [
         {
+            "id": 90,
+            "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-start-1.png",
+            "title": "Essential Common",
+            "count": 2,
+            "articles": [
+                {
+                    "title": "REST API Docs",
+                    "link": "https://rest-api.fluentcrm.com"
+                },
+                {
+                    "title": "Developer Docs",
+                    "link": "https://developers.fluentcrm.com/
+                }
+            ]
+        },
+        {
             "id": 3,
             "icon": "https://fluentcrm.com/wp-content/uploads/2022/09/crm-start-1.png",
             "title": "Getting Started",
