@@ -13,6 +13,10 @@
                 {
                     "title": "Developer Docs",
                     "link": "https://developers.fluentcrm.com/"
+                },
+                {
+                    "title": "Cron Advanced Guide (cPanel)",
+                    "link": "https://guides.ibrahimsharif.com/kb/servers/wordpress-cpanel-server-side-cron-job-setup/"
                 }
             ]
         },
